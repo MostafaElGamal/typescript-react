@@ -3,6 +3,8 @@ import NewTodo from "./components/NewTodo";
 import TodoList from "./components/TodoList";
 import { Todo } from "./todo.modal";
 
+import { Route } from "react-router-dom";
+
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
 
